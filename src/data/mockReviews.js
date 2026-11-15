@@ -1,0 +1,62 @@
+export const INITIAL_REVIEWS = [
+  {
+    id: "rev-201",
+    studentName: "Nitya Arya",
+    studentEmail: "nitya.arya@college.edu",
+    studentRoll: "21BCE1001",
+    projectIdea: "OmniScribe: Edge Vision-Language Assistant for Real-Time Handwritten Equation Solving",
+    domain: "Artificial Intelligence",
+    submissionDate: "2024-11-10",
+    similarityScore: 72,
+    status: "Pending Review",
+    analysisId: "ana-101",
+    facultyNotes: "Shows strong conceptual promise. Need student to specify how INT4 quantization will preserve mathematical symbol recognition accuracy.",
+    reviewerName: "Dr. K. S. Venkatesh",
+    recommendedAction: "Request Technical Clarification"
+  },
+  {
+    id: "rev-202",
+    studentName: "Sanskriti Jain",
+    studentEmail: "sanskriti.jain@college.edu",
+    studentRoll: "21BCE1002",
+    projectIdea: "CryptoBadge: Zero-Knowledge Verification for Extracurricular Hackathon Certifications",
+    domain: "Cybersecurity",
+    submissionDate: "2024-11-04",
+    similarityScore: 68,
+    status: "Reviewed",
+    analysisId: "ana-102",
+    facultyNotes: "Approved for Phase 1 prototype. Recommended student to deploy on Polygon zkEVM testnet to keep gas costs near zero.",
+    reviewerName: "Prof. Rajeshwari Sengupta",
+    recommendedAction: "Approved for Implementation"
+  },
+  {
+    id: "rev-203",
+    studentName: "Aradhya Jain",
+    studentEmail: "aradhya.jain@college.edu",
+    studentRoll: "21BCE1003",
+    projectIdea: "ThermalGrid: LoRaWAN Urban Heat Island Mapping & Micro-Climate Predictive Dashboard",
+    domain: "IoT",
+    submissionDate: "2024-10-22",
+    similarityScore: 54,
+    status: "Reviewed",
+    analysisId: "ana-103",
+    facultyNotes: "Approved. Hardware budget allocation passed. Advise team to consult Campus Facilities department before deploying Stevenson shields.",
+    reviewerName: "Dr. B. Ramanathan",
+    recommendedAction: "Approved for Implementation"
+  },
+  {
+    id: "rev-204",
+    studentName: "Hemant Dangi",
+    studentEmail: "hemant.dangi@college.edu",
+    studentRoll: "21BCE1004",
+    projectIdea: "JurisSense: Indic Statutory Compliance & High Court Judgment Precedent Retrieval",
+    domain: "Education",
+    submissionDate: "2024-11-02",
+    similarityScore: 41,
+    status: "Pending Review",
+    analysisId: "ana-104",
+    facultyNotes: "Reviewing citation cross-verification algorithm against official e-SCR court reporter corpus.",
+    reviewerName: "Dr. Anandita Sen",
+    recommendedAction: "Needs Methodology Review"
+  }
+];
